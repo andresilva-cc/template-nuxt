@@ -3,6 +3,17 @@ import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 import pluginVueA11y from 'eslint-plugin-vuejs-accessibility';
 
 export default withNuxt([
+  {
+    files: [
+      '**/*.js',
+      '**/*.mjs',
+      '**/*.cjs',
+      '**/*.ts',
+      '**/*.mts',
+      '**/*.cts',
+      '**/*.vue',
+    ],
+  },
   ...pluginVueA11y.configs['flat/recommended'],
   eslintPluginPrettierRecommended,
 ]);
