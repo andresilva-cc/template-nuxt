@@ -8,7 +8,5 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
 
-  modules: [
-    '@nuxtjs/tailwindcss'
-  ]
-})
+  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss'],
+});
