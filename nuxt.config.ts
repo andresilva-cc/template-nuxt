@@ -15,4 +15,8 @@ export default defineNuxtConfig({
     '@nuxtjs/stylelint-module',
     '@nuxtjs/tailwindcss',
   ],
+
+  typescript: {
+    typeCheck: true,
+  },
 });
