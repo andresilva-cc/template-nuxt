@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/eslint',
     '@nuxt/test-utils/module',
+    '@nuxtjs/storybook',
     '@nuxtjs/stylelint-module',
     '@nuxtjs/tailwindcss',
   ],
