@@ -14,6 +14,9 @@ export default withNuxt([
       '**/*.cts',
       '**/*.vue',
     ],
+    rules: {
+      'vue/multi-word-component-names': 'off',
+    },
   },
   ...pluginVueA11y.configs['flat/recommended'],
   ...storybook.configs['flat/recommended'],
