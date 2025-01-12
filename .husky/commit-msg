@@ -1,1 +1,1 @@
-pnpm commitlint --edit $1
+docker compose exec -T template-nuxt pnpm commitlint --edit $1

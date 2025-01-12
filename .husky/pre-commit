@@ -1,2 +1,4 @@
-pnpm lint-staged
-pnpm typecheck
+docker compose up --detach --no-deps --no-recreate template-nuxt
+
+docker compose exec -T template-nuxt pnpm lint-staged
+docker compose exec -T template-nuxt pnpm typecheck

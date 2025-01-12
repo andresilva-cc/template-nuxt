@@ -1,0 +1,10 @@
+services:
+  template-nuxt:
+    container_name: template-nuxt
+    build:
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    ports:
+      - "3000:3000"
+      - "6006:6006"
